@@ -1,5 +1,5 @@
 # SmartChain-AI
-{Developed SmartChain AI, a full-stack Supply Chain Management dashboard using Next.js, MongoDB, and JWT authentication, with granular role-based access for Admins, Managers, and Operators and Implemented inventory management with planned AI-powered reorder recommendations, laying the foundation for intelligent stock optimization and Built delivery tracking and supplier performance modules with a structured workflow, designed for future integration of real-time updates and Designed an analytics-driven UI with Recharts, providing dashboards, reporting tools, and performance insights for supply chain operations.
+Developed SmartChain AI, a full-stack Supply Chain Management dashboard using Next.js, MongoDB, and JWT authentication, with granular role-based access for Admins, Managers, and Operators and Implemented inventory management with planned AI-powered reorder recommendations, laying the foundation for intelligent stock optimization and Built delivery tracking and supplier performance modules with a structured workflow, designed for future integration of real-time updates and Designed an analytics-driven UI with Recharts, providing dashboards, reporting tools, and performance insights for supply chain operations.
 
 
 

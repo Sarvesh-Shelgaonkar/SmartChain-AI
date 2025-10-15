@@ -1,0 +1,156 @@
+[
+  {
+    "name": "Hindustan Unilever Ltd",
+    "category": "FMCG",
+    "onTimeDelivery": 94.2,
+    "avgDelay": 2.3,
+    "qualityScore": 96.8,
+    "costEfficiency": 89.5,
+    "sustainabilityScore": 92.1,
+    "totalOrders": 1247,
+    "rating": 4.8,
+    "contact": {
+      "email": "orders@hul.com",
+      "phone": "+91-22-6678-1234",
+      "address": "Mumbai, Maharashtra"
+    },
+    "performance": {
+      "lastMonth": 94.2,
+      "trend": "up"
+    },
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T10:30:00.000Z"
+  },
+  {
+    "name": "Nestle India Ltd",
+    "category": "Food & Beverages",
+    "onTimeDelivery": 91.7,
+    "avgDelay": 3.1,
+    "qualityScore": 95.2,
+    "costEfficiency": 87.3,
+    "sustainabilityScore": 88.9,
+    "totalOrders": 892,
+    "rating": 4.6,
+    "contact": {
+      "email": "supply@nestle.in",
+      "phone": "+91-124-3985-000",
+      "address": "Gurgaon, Haryana"
+    },
+    "performance": {
+      "lastMonth": 91.7,
+      "trend": "stable"
+    },
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T10:25:00.000Z"
+  },
+  {
+    "name": "Tata Consumer Products",
+    "category": "FMCG",
+    "onTimeDelivery": 88.9,
+    "avgDelay": 4.2,
+    "qualityScore": 93.7,
+    "costEfficiency": 91.2,
+    "sustainabilityScore": 95.4,
+    "totalOrders": 634,
+    "rating": 4.4,
+    "contact": {
+      "email": "procurement@tatacp.com",
+      "phone": "+91-22-6665-8282",
+      "address": "Mumbai, Maharashtra"
+    },
+    "performance": {
+      "lastMonth": 88.9,
+      "trend": "down"
+    },
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T10:20:00.000Z"
+  },
+  {
+    "name": "Marico Limited",
+    "category": "Personal Care",
+    "onTimeDelivery": 92.5,
+    "avgDelay": 2.8,
+    "qualityScore": 94.3,
+    "costEfficiency": 88.7,
+    "sustainabilityScore": 90.2,
+    "totalOrders": 756,
+    "rating": 4.5,
+    "contact": {
+      "email": "orders@marico.com",
+      "phone": "+91-22-6648-0480",
+      "address": "Mumbai, Maharashtra"
+    },
+    "performance": {
+      "lastMonth": 92.5,
+      "trend": "up"
+    },
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T10:15:00.000Z"
+  },
+  {
+    "name": "Britannia Industries",
+    "category": "Food Products",
+    "onTimeDelivery": 89.3,
+    "avgDelay": 3.5,
+    "qualityScore": 92.8,
+    "costEfficiency": 86.9,
+    "sustainabilityScore": 87.6,
+    "totalOrders": 543,
+    "rating": 4.3,
+    "contact": {
+      "email": "supply@britannia.co.in",
+      "phone": "+91-33-2229-8747",
+      "address": "Kolkata, West Bengal"
+    },
+    "performance": {
+      "lastMonth": 89.3,
+      "trend": "stable"
+    },
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T10:10:00.000Z"
+  },
+  {
+    "name": "ITC Limited",
+    "category": "Food & Beverages",
+    "onTimeDelivery": 87.6,
+    "avgDelay": 4.7,
+    "qualityScore": 92.3,
+    "costEfficiency": 91.2,
+    "sustainabilityScore": 89.4,
+    "totalOrders": 892,
+    "rating": 4.2,
+    "contact": {
+      "email": "procurement@itc.in",
+      "phone": "+91-33-2288-9371",
+      "address": "Kolkata, West Bengal"
+    },
+    "performance": {
+      "lastMonth": 87.6,
+      "trend": "down"
+    },
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T10:05:00.000Z"
+  },
+  {
+    "name": "Colgate-Palmolive India",
+    "category": "Personal Care",
+    "onTimeDelivery": 93.8,
+    "avgDelay": 2.1,
+    "qualityScore": 97.2,
+    "costEfficiency": 85.6,
+    "sustainabilityScore": 91.8,
+    "totalOrders": 445,
+    "rating": 4.7,
+    "contact": {
+      "email": "orders@colgate.com",
+      "phone": "+91-22-6742-4000",
+      "address": "Mumbai, Maharashtra"
+    },
+    "performance": {
+      "lastMonth": 93.8,
+      "trend": "up"
+    },
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T10:00:00.000Z"
+  }
+]

@@ -1,0 +1,113 @@
+[
+  {
+    "name": "Rajesh Kumar",
+    "email": "admin@smartchain.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj/VcSAHVfXe",
+    "role": "admin",
+    "department": "admin",
+    "avatar": "",
+    "isActive": true,
+    "lastLogin": "2024-06-26T10:30:00.000Z",
+    "permissions": [
+      "view_dashboard",
+      "manage_inventory", 
+      "manage_deliveries",
+      "manage_suppliers",
+      "manage_orders",
+      "view_analytics",
+      "manage_users",
+      "system_admin"
+    ],
+    "preferences": {
+      "theme": "system",
+      "language": "en",
+      "notifications": {
+        "email": true,
+        "push": true,
+        "sms": false
+      }
+    },
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T10:30:00.000Z"
+  },
+  {
+    "name": "Priya Sharma",
+    "email": "manager@smartchain.com", 
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj/VcSAHVfXe",
+    "role": "manager",
+    "department": "operations",
+    "avatar": "",
+    "isActive": true,
+    "lastLogin": "2024-06-26T09:15:00.000Z",
+    "permissions": [
+      "view_dashboard",
+      "manage_inventory",
+      "manage_deliveries", 
+      "manage_suppliers",
+      "manage_orders",
+      "view_analytics"
+    ],
+    "preferences": {
+      "theme": "light",
+      "language": "en",
+      "notifications": {
+        "email": true,
+        "push": true,
+        "sms": true
+      }
+    },
+    "createdAt": "2024-02-01T08:00:00.000Z",
+    "updatedAt": "2024-06-26T09:15:00.000Z"
+  },
+  {
+    "name": "Amit Patel",
+    "email": "operator@smartchain.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj/VcSAHVfXe",
+    "role": "operator", 
+    "department": "inventory",
+    "avatar": "",
+    "isActive": true,
+    "lastLogin": "2024-06-26T08:45:00.000Z",
+    "permissions": [
+      "view_dashboard",
+      "manage_inventory",
+      "manage_deliveries",
+      "manage_orders"
+    ],
+    "preferences": {
+      "theme": "dark",
+      "language": "hi",
+      "notifications": {
+        "email": true,
+        "push": false,
+        "sms": false
+      }
+    },
+    "createdAt": "2024-03-01T08:00:00.000Z",
+    "updatedAt": "2024-06-26T08:45:00.000Z"
+  },
+  {
+    "name": "Sunita Yadav",
+    "email": "viewer@smartchain.com",
+    "password": "$2a$12$LQv3c1yqBWVHxkd0LHAkCOYz6TtxMQJqhN8/LewdBPj/VcSAHVfXe",
+    "role": "viewer",
+    "department": "logistics",
+    "avatar": "",
+    "isActive": true,
+    "lastLogin": "2024-06-25T16:20:00.000Z",
+    "permissions": [
+      "view_dashboard"
+    ],
+    "preferences": {
+      "theme": "system",
+      "language": "mr",
+      "notifications": {
+        "email": false,
+        "push": true,
+        "sms": false
+      }
+    },
+    "createdAt": "2024-04-01T08:00:00.000Z",
+    "updatedAt": "2024-06-25T16:20:00.000Z"
+  }
+]

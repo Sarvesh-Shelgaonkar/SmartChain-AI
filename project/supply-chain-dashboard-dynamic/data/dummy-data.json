@@ -1,0 +1,542 @@
+{
+  "users": [
+    {
+      "name": "Rajesh Kumar",
+      "email": "admin@smartchain.com",
+      "password": "admin123",
+      "role": "admin",
+      "department": "admin",
+      "avatar": "",
+      "isActive": true,
+      "permissions": [
+        "view_dashboard", "manage_inventory", "manage_deliveries",
+        "manage_suppliers", "manage_orders", "view_analytics",
+        "manage_users", "system_admin"
+      ],
+      "preferences": {
+        "theme": "system",
+        "language": "en",
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": false
+        }
+      }
+    },
+    {
+      "name": "Priya Sharma",
+      "email": "manager@smartchain.com",
+      "password": "manager123",
+      "role": "manager",
+      "department": "operations",
+      "avatar": "",
+      "isActive": true,
+      "permissions": [
+        "view_dashboard", "manage_inventory", "manage_deliveries",
+        "manage_suppliers", "manage_orders", "view_analytics"
+      ],
+      "preferences": {
+        "theme": "light",
+        "language": "en",
+        "notifications": {
+          "email": true,
+          "push": true,
+          "sms": true
+        }
+      }
+    },
+    {
+      "name": "Amit Patel",
+      "email": "operator@smartchain.com",
+      "password": "operator123",
+      "role": "operator",
+      "department": "inventory",
+      "avatar": "",
+      "isActive": true,
+      "permissions": [
+        "view_dashboard", "manage_inventory", "manage_deliveries", "manage_orders"
+      ],
+      "preferences": {
+        "theme": "dark",
+        "language": "hi",
+        "notifications": {
+          "email": true,
+          "push": false,
+          "sms": false
+        }
+      }
+    }
+  ],
+  "inventory": [
+    {
+      "product": "Parachute Coconut Oil 500ml",
+      "store": "Jalgaon Central",
+      "current": 45,
+      "optimal": 100,
+      "predicted": 15,
+      "trend": -12,
+      "category": "Personal Care",
+      "sku": "PCO-500ML"
+    },
+    {
+      "product": "Maggi Noodles 2-Min",
+      "store": "Nashik Mall",
+      "current": 234,
+      "optimal": 200,
+      "predicted": 180,
+      "trend": 8,
+      "category": "Food",
+      "sku": "MAG-2MIN"
+    },
+    {
+      "product": "Tata Salt 1kg",
+      "store": "Aurangabad Plaza",
+      "current": 89,
+      "optimal": 150,
+      "predicted": 120,
+      "trend": -5,
+      "category": "Grocery",
+      "sku": "TTS-1KG"
+    },
+    {
+      "product": "Surf Excel 1kg",
+      "store": "Kolhapur Store",
+      "current": 23,
+      "optimal": 80,
+      "predicted": 8,
+      "trend": -18,
+      "category": "Household",
+      "sku": "SFX-1KG"
+    },
+    {
+      "product": "Britannia Biscuits Good Day",
+      "store": "Solapur Branch",
+      "current": 156,
+      "optimal": 120,
+      "predicted": 200,
+      "trend": 15,
+      "category": "Food",
+      "sku": "BRT-100G"
+    },
+    {
+      "product": "Colgate Toothpaste",
+      "store": "Pune Central",
+      "current": 78,
+      "optimal": 90,
+      "predicted": 65,
+      "trend": -8,
+      "category": "Personal Care",
+      "sku": "COL-100G"
+    },
+    {
+      "product": "Amul Milk 1L",
+      "store": "Mumbai Store",
+      "current": 145,
+      "optimal": 200,
+      "predicted": 180,
+      "trend": 12,
+      "category": "Dairy",
+      "sku": "AML-1L"
+    },
+    {
+      "product": "Parle-G Biscuits",
+      "store": "Nagpur Branch",
+      "current": 267,
+      "optimal": 250,
+      "predicted": 300,
+      "trend": 20,
+      "category": "Food",
+      "sku": "PLG-200G"
+    },
+    {
+      "product": "Dettol Soap",
+      "store": "Thane Outlet",
+      "current": 34,
+      "optimal": 60,
+      "predicted": 25,
+      "trend": -15,
+      "category": "Personal Care",
+      "sku": "DTL-75G"
+    },
+    {
+      "product": "Basmati Rice 5kg",
+      "store": "Satara Store",
+      "current": 12,
+      "optimal": 40,
+      "predicted": 8,
+      "trend": -25,
+      "category": "Grocery",
+      "sku": "BSM-5KG"
+    }
+  ],
+  "deliveries": [
+    {
+      "truck": "MH-12-AB-1234",
+      "driver": "Rajesh Kumar",
+      "route": "Mumbai → Jalgaon",
+      "progress": 75,
+      "eta": "2h 15m",
+      "delay": 0,
+      "items": 45,
+      "status": "in-transit",
+      "startLocation": "Mumbai",
+      "endLocation": "Jalgaon",
+      "coordinates": { "lat": 20.0504, "lng": 75.5648 }
+    },
+    {
+      "truck": "MH-14-CD-5678",
+      "driver": "Priya Sharma",
+      "route": "Pune → Nashik",
+      "progress": 45,
+      "eta": "3h 45m",
+      "delay": 30,
+      "items": 67,
+      "status": "delayed",
+      "startLocation": "Pune",
+      "endLocation": "Nashik",
+      "coordinates": { "lat": 19.9975, "lng": 73.7898 }
+    },
+    {
+      "truck": "MH-16-EF-9012",
+      "driver": "Amit Patel",
+      "route": "Nagpur → Aurangabad",
+      "progress": 90,
+      "eta": "45m",
+      "delay": -15,
+      "items": 32,
+      "status": "in-transit",
+      "startLocation": "Nagpur",
+      "endLocation": "Aurangabad",
+      "coordinates": { "lat": 19.8762, "lng": 75.3433 }
+    },
+    {
+      "truck": "MH-18-GH-3456",
+      "driver": "Sunita Yadav",
+      "route": "Mumbai → Kolhapur",
+      "progress": 25,
+      "eta": "5h 30m",
+      "delay": 45,
+      "items": 78,
+      "status": "delayed",
+      "startLocation": "Mumbai",
+      "endLocation": "Kolhapur",
+      "coordinates": { "lat": 16.7050, "lng": 74.2433 }
+    },
+    {
+      "truck": "MH-20-IJ-7890",
+      "driver": "Vikram Singh",
+      "route": "Pune → Solapur",
+      "progress": 100,
+      "eta": "Delivered",
+      "delay": 0,
+      "items": 56,
+      "status": "delivered",
+      "startLocation": "Pune",
+      "endLocation": "Solapur",
+      "coordinates": { "lat": 17.6599, "lng": 75.9064 }
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Hindustan Unilever Ltd",
+      "category": "FMCG",
+      "onTimeDelivery": 94.2,
+      "avgDelay": 2.3,
+      "qualityScore": 96.8,
+      "costEfficiency": 89.5,
+      "sustainabilityScore": 92.1,
+      "totalOrders": 1247,
+      "rating": 4.8,
+      "contact": {
+        "email": "orders@hul.com",
+        "phone": "+91-22-6678-1234",
+        "address": "Mumbai, Maharashtra"
+      },
+      "performance": {
+        "lastMonth": 94.2,
+        "trend": "up"
+      }
+    },
+    {
+      "name": "Nestle India Ltd",
+      "category": "Food & Beverages",
+      "onTimeDelivery": 91.7,
+      "avgDelay": 3.1,
+      "qualityScore": 95.2,
+      "costEfficiency": 87.3,
+      "sustainabilityScore": 88.9,
+      "totalOrders": 892,
+      "rating": 4.6,
+      "contact": {
+        "email": "supply@nestle.in",
+        "phone": "+91-124-3985-000",
+        "address": "Gurgaon, Haryana"
+      },
+      "performance": {
+        "lastMonth": 91.7,
+        "trend": "stable"
+      }
+    },
+    {
+      "name": "Tata Consumer Products",
+      "category": "FMCG",
+      "onTimeDelivery": 88.9,
+      "avgDelay": 4.2,
+      "qualityScore": 93.7,
+      "costEfficiency": 91.2,
+      "sustainabilityScore": 95.4,
+      "totalOrders": 634,
+      "rating": 4.4,
+      "contact": {
+        "email": "procurement@tatacp.com",
+        "phone": "+91-22-6665-8282",
+        "address": "Mumbai, Maharashtra"
+      },
+      "performance": {
+        "lastMonth": 88.9,
+        "trend": "down"
+      }
+    },
+    {
+      "name": "Marico Limited",
+      "category": "Personal Care",
+      "onTimeDelivery": 92.5,
+      "avgDelay": 2.8,
+      "qualityScore": 94.3,
+      "costEfficiency": 88.7,
+      "sustainabilityScore": 90.2,
+      "totalOrders": 756,
+      "rating": 4.5,
+      "contact": {
+        "email": "orders@marico.com",
+        "phone": "+91-22-6648-0480",
+        "address": "Mumbai, Maharashtra"
+      },
+      "performance": {
+        "lastMonth": 92.5,
+        "trend": "up"
+      }
+    },
+    {
+      "name": "Britannia Industries",
+      "category": "Food Products",
+      "onTimeDelivery": 89.3,
+      "avgDelay": 3.5,
+      "qualityScore": 92.8,
+      "costEfficiency": 86.9,
+      "sustainabilityScore": 87.6,
+      "totalOrders": 543,
+      "rating": 4.3,
+      "contact": {
+        "email": "supply@britannia.co.in",
+        "phone": "+91-33-2229-8747",
+        "address": "Kolkata, West Bengal"
+      },
+      "performance": {
+        "lastMonth": 89.3,
+        "trend": "stable"
+      }
+    }
+  ],
+  "reorderRecommendations": [
+    {
+      "sku": "PCO-500ML",
+      "product": "Parachute Coconut Oil 500ml",
+      "store": "Jalgaon Central",
+      "currentStock": 23,
+      "dailyConsumption": 8.5,
+      "daysLeft": 2.7,
+      "recommendedOrder": 150,
+      "priority": "urgent",
+      "supplier": "Marico Limited",
+      "estimatedCost": 12750,
+      "leadTime": 3,
+      "category": "Personal Care",
+      "reason": "Stock critically low, high demand expected",
+      "isProcessed": false
+    },
+    {
+      "sku": "SFX-1KG",
+      "product": "Surf Excel 1kg",
+      "store": "Kolhapur Store",
+      "currentStock": 12,
+      "dailyConsumption": 6.2,
+      "daysLeft": 1.9,
+      "recommendedOrder": 100,
+      "priority": "urgent",
+      "supplier": "Hindustan Unilever Ltd",
+      "estimatedCost": 8500,
+      "leadTime": 2,
+      "category": "Household",
+      "reason": "Emergency restock needed",
+      "isProcessed": false
+    },
+    {
+      "sku": "BSM-5KG",
+      "product": "Basmati Rice 5kg",
+      "store": "Satara Store",
+      "currentStock": 8,
+      "dailyConsumption": 4.2,
+      "daysLeft": 1.9,
+      "recommendedOrder": 80,
+      "priority": "urgent",
+      "supplier": "Local Rice Mills",
+      "estimatedCost": 15600,
+      "leadTime": 4,
+      "category": "Grocery",
+      "reason": "Critical stock level reached",
+      "isProcessed": false
+    },
+    {
+      "sku": "DTL-75G",
+      "product": "Dettol Soap",
+      "store": "Thane Outlet",
+      "currentStock": 25,
+      "dailyConsumption": 5.8,
+      "daysLeft": 4.3,
+      "recommendedOrder": 75,
+      "priority": "high",
+      "supplier": "Reckitt Benckiser",
+      "estimatedCost": 3750,
+      "leadTime": 3,
+      "category": "Personal Care",
+      "reason": "Below optimal stock level",
+      "isProcessed": false
+    },
+    {
+      "sku": "COL-100G",
+      "product": "Colgate Toothpaste",
+      "store": "Pune Central",
+      "currentStock": 45,
+      "dailyConsumption": 7.2,
+      "daysLeft": 6.2,
+      "recommendedOrder": 60,
+      "priority": "medium",
+      "supplier": "Colgate-Palmolive",
+      "estimatedCost": 4200,
+      "leadTime": 2,
+      "category": "Personal Care",
+      "reason": "Preventive restocking",
+      "isProcessed": false
+    }
+  ],
+  "sustainabilityMetrics": [
+    {
+      "metric": "Carbon Footprint",
+      "value": 2847,
+      "unit": "tons CO2",
+      "target": 2500,
+      "category": "carbon",
+      "trend": "declining",
+      "description": "Total carbon emissions from supply chain operations",
+      "monthlyData": [
+        { "month": "Jan", "value": 2950 },
+        { "month": "Feb", "value": 2890 },
+        { "month": "Mar", "value": 2847 },
+        { "month": "Apr", "value": 2820 },
+        { "month": "May", "value": 2785 },
+        { "month": "Jun", "value": 2750 }
+      ]
+    },
+    {
+      "metric": "Waste Reduction",
+      "value": 78.5,
+      "unit": "% recycled",
+      "target": 85,
+      "category": "waste",
+      "trend": "improving",
+      "description": "Percentage of waste materials recycled",
+      "monthlyData": [
+        { "month": "Jan", "value": 75.2 },
+        { "month": "Feb", "value": 76.8 },
+        { "month": "Mar", "value": 78.5 },
+        { "month": "Apr", "value": 79.2 },
+        { "month": "May", "value": 80.1 },
+        { "month": "Jun", "value": 81.3 }
+      ]
+    },
+    {
+      "metric": "Energy Efficiency",
+      "value": 92.3,
+      "unit": "% renewable",
+      "target": 95,
+      "category": "energy",
+      "trend": "improving",
+      "description": "Percentage of renewable energy usage",
+      "monthlyData": [
+        { "month": "Jan", "value": 89.1 },
+        { "month": "Feb", "value": 90.7 },
+        { "month": "Mar", "value": 92.3 },
+        { "month": "Apr", "value": 93.1 },
+        { "month": "May", "value": 93.8 },
+        { "month": "Jun", "value": 94.2 }
+      ]
+    },
+    {
+      "metric": "Water Conservation",
+      "value": 87.6,
+      "unit": "% saved",
+      "target": 90,
+      "category": "water",
+      "trend": "stable",
+      "description": "Water usage reduction compared to baseline",
+      "monthlyData": [
+        { "month": "Jan", "value": 86.2 },
+        { "month": "Feb", "value": 87.1 },
+        { "month": "Mar", "value": 87.6 },
+        { "month": "Apr", "value": 87.8 },
+        { "month": "May", "value": 87.5 },
+        { "month": "Jun", "value": 87.6 }
+      ]
+    },
+    {
+      "metric": "Sustainable Packaging",
+      "value": 73.2,
+      "unit": "% eco-friendly",
+      "target": 80,
+      "category": "packaging",
+      "trend": "improving",
+      "description": "Percentage of eco-friendly packaging materials used",
+      "monthlyData": [
+        { "month": "Jan", "value": 68.5 },
+        { "month": "Feb", "value": 70.2 },
+        { "month": "Mar", "value": 73.2 },
+        { "month": "Apr", "value": 74.8 },
+        { "month": "May", "value": 76.1 },
+        { "month": "Jun", "value": 77.5 }
+      ]
+    }
+  ],
+  "analytics": {
+    "revenue": {
+      "total": 4523100,
+      "growth": 20.1,
+      "monthlyData": [
+        { "month": "Jan", "value": 3850000 },
+        { "month": "Feb", "value": 4120000 },
+        { "month": "Mar", "value": 4350000 },
+        { "month": "Apr", "value": 4280000 },
+        { "month": "May", "value": 4450000 },
+        { "month": "Jun", "value": 4523100 }
+      ]
+    },
+    "costSavings": {
+      "total": 847500,
+      "growth": 15.3,
+      "categories": [
+        { "name": "Inventory Optimization", "value": 320000 },
+        { "name": "Route Optimization", "value": 185000 },
+        { "name": "Supplier Negotiations", "value": 142500 },
+        { "name": "Energy Efficiency", "value": 95000 },
+        { "name": "Waste Reduction", "value": 105000 }
+      ]
+    },
+    "topCategories": [
+      { "name": "Personal Care", "revenue": 1234500, "growth": 18.5 },
+      { "name": "Food & Beverages", "revenue": 1087200, "growth": 22.3 },
+      { "name": "Household Items", "revenue": 895400, "growth": 15.7 },
+      { "name": "Grocery", "revenue": 756800, "growth": 12.1 },
+      { "name": "Dairy", "revenue": 549200, "growth": 28.9 }
+    ]
+  }
+}

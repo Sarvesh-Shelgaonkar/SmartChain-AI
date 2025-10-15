@@ -1,0 +1,122 @@
+[
+  {
+    "metric": "Carbon Footprint",
+    "value": 2847,
+    "unit": "tons CO2",
+    "target": 2500,
+    "category": "carbon",
+    "trend": "declining",
+    "description": "Total carbon emissions from supply chain operations",
+    "lastCalculated": "2024-06-26T10:00:00.000Z",
+    "monthlyData": [
+      { "month": "Jan", "value": 2950 },
+      { "month": "Feb", "value": 2890 },
+      { "month": "Mar", "value": 2847 },
+      { "month": "Apr", "value": 2820 },
+      { "month": "May", "value": 2785 },
+      { "month": "Jun", "value": 2750 }
+    ],
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T10:00:00.000Z"
+  },
+  {
+    "metric": "Waste Reduction",
+    "value": 78.5,
+    "unit": "% recycled",
+    "target": 85,
+    "category": "waste",
+    "trend": "improving",
+    "description": "Percentage of waste materials recycled",
+    "lastCalculated": "2024-06-26T09:45:00.000Z",
+    "monthlyData": [
+      { "month": "Jan", "value": 75.2 },
+      { "month": "Feb", "value": 76.8 },
+      { "month": "Mar", "value": 78.5 },
+      { "month": "Apr", "value": 79.2 },
+      { "month": "May", "value": 80.1 },
+      { "month": "Jun", "value": 81.3 }
+    ],
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T09:45:00.000Z"
+  },
+  {
+    "metric": "Energy Efficiency",
+    "value": 92.3,
+    "unit": "% renewable",
+    "target": 95,
+    "category": "energy",
+    "trend": "improving",
+    "description": "Percentage of renewable energy usage",
+    "lastCalculated": "2024-06-26T09:30:00.000Z",
+    "monthlyData": [
+      { "month": "Jan", "value": 89.1 },
+      { "month": "Feb", "value": 90.7 },
+      { "month": "Mar", "value": 92.3 },
+      { "month": "Apr", "value": 93.1 },
+      { "month": "May", "value": 93.8 },
+      { "month": "Jun", "value": 94.2 }
+    ],
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T09:30:00.000Z"
+  },
+  {
+    "metric": "Water Conservation",
+    "value": 87.6,
+    "unit": "% saved",
+    "target": 90,
+    "category": "water",
+    "trend": "stable",
+    "description": "Water usage reduction compared to baseline",
+    "lastCalculated": "2024-06-26T09:15:00.000Z",
+    "monthlyData": [
+      { "month": "Jan", "value": 86.2 },
+      { "month": "Feb", "value": 87.1 },
+      { "month": "Mar", "value": 87.6 },
+      { "month": "Apr", "value": 87.8 },
+      { "month": "May", "value": 87.5 },
+      { "month": "Jun", "value": 87.6 }
+    ],
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T09:15:00.000Z"
+  },
+  {
+    "metric": "Sustainable Packaging",
+    "value": 73.2,
+    "unit": "% eco-friendly",
+    "target": 80,
+    "category": "packaging",
+    "trend": "improving",
+    "description": "Percentage of eco-friendly packaging materials used",
+    "lastCalculated": "2024-06-26T09:00:00.000Z",
+    "monthlyData": [
+      { "month": "Jan", "value": 68.5 },
+      { "month": "Feb", "value": 70.2 },
+      { "month": "Mar", "value": 73.2 },
+      { "month": "Apr", "value": 74.8 },
+      { "month": "May", "value": 76.1 },
+      { "month": "Jun", "value": 77.5 }
+    ],
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T09:00:00.000Z"
+  },
+  {
+    "metric": "Local Sourcing",
+    "value": 65.4,
+    "unit": "% local suppliers",
+    "target": 70,
+    "category": "sourcing",
+    "trend": "improving",
+    "description": "Percentage of products sourced from local suppliers",
+    "lastCalculated": "2024-06-26T08:45:00.000Z",
+    "monthlyData": [
+      { "month": "Jan", "value": 62.1 },
+      { "month": "Feb", "value": 63.8 },
+      { "month": "Mar", "value": 65.4 },
+      { "month": "Apr", "value": 66.2 },
+      { "month": "May", "value": 67.1 },
+      { "month": "Jun", "value": 68.3 }
+    ],
+    "createdAt": "2024-01-15T08:00:00.000Z",
+    "updatedAt": "2024-06-26T08:45:00.000Z"
+  }
+]

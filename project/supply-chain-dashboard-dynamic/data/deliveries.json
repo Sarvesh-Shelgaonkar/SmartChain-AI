@@ -1,0 +1,128 @@
+[
+  {
+    "truck": "MH-12-AB-1234",
+    "driver": "Rajesh Kumar",
+    "route": "Mumbai → Jalgaon",
+    "progress": 75,
+    "eta": "2h 15m",
+    "delay": 0,
+    "items": 45,
+    "status": "in-transit",
+    "startLocation": "Mumbai",
+    "endLocation": "Jalgaon",
+    "coordinates": {
+      "lat": 20.0504,
+      "lng": 75.5648
+    },
+    "createdAt": "2024-06-26T06:00:00.000Z",
+    "updatedAt": "2024-06-26T10:30:00.000Z"
+  },
+  {
+    "truck": "MH-14-CD-5678",
+    "driver": "Priya Sharma",
+    "route": "Pune → Nashik",
+    "progress": 45,
+    "eta": "3h 45m",
+    "delay": 30,
+    "items": 67,
+    "status": "delayed",
+    "startLocation": "Pune",
+    "endLocation": "Nashik",
+    "coordinates": {
+      "lat": 19.9975,
+      "lng": 73.7898
+    },
+    "createdAt": "2024-06-26T05:30:00.000Z",
+    "updatedAt": "2024-06-26T10:25:00.000Z"
+  },
+  {
+    "truck": "MH-16-EF-9012",
+    "driver": "Amit Patel",
+    "route": "Nagpur → Aurangabad",
+    "progress": 90,
+    "eta": "45m",
+    "delay": -15,
+    "items": 32,
+    "status": "in-transit",
+    "startLocation": "Nagpur",
+    "endLocation": "Aurangabad",
+    "coordinates": {
+      "lat": 19.8762,
+      "lng": 75.3433
+    },
+    "createdAt": "2024-06-26T04:00:00.000Z",
+    "updatedAt": "2024-06-26T10:20:00.000Z"
+  },
+  {
+    "truck": "MH-18-GH-3456",
+    "driver": "Sunita Yadav",
+    "route": "Mumbai → Kolhapur",
+    "progress": 25,
+    "eta": "5h 30m",
+    "delay": 45,
+    "items": 78,
+    "status": "delayed",
+    "startLocation": "Mumbai",
+    "endLocation": "Kolhapur",
+    "coordinates": {
+      "lat": 16.7050,
+      "lng": 74.2433
+    },
+    "createdAt": "2024-06-26T05:00:00.000Z",
+    "updatedAt": "2024-06-26T10:15:00.000Z"
+  },
+  {
+    "truck": "MH-20-IJ-7890",
+    "driver": "Vikram Singh",
+    "route": "Pune → Solapur",
+    "progress": 100,
+    "eta": "Delivered",
+    "delay": 0,
+    "items": 56,
+    "status": "delivered",
+    "startLocation": "Pune",
+    "endLocation": "Solapur",
+    "coordinates": {
+      "lat": 17.6599,
+      "lng": 75.9064
+    },
+    "createdAt": "2024-06-26T03:00:00.000Z",
+    "updatedAt": "2024-06-26T09:30:00.000Z"
+  },
+  {
+    "truck": "MH-22-KL-1357",
+    "driver": "Anita Desai",
+    "route": "Mumbai → Thane",
+    "progress": 80,
+    "eta": "1h 10m",
+    "delay": 0,
+    "items": 23,
+    "status": "in-transit",
+    "startLocation": "Mumbai",
+    "endLocation": "Thane",
+    "coordinates": {
+      "lat": 19.2183,
+      "lng": 72.9781
+    },
+    "createdAt": "2024-06-26T07:00:00.000Z",
+    "updatedAt": "2024-06-26T10:10:00.000Z"
+  },
+  {
+    "truck": "MH-24-MN-2468",
+    "driver": "Ravi Patil",
+    "route": "Indore → Bhopal",
+    "progress": 60,
+    "eta": "2h 30m",
+    "delay": 20,
+    "items": 41,
+    "status": "in-transit",
+    "startLocation": "Indore",
+    "endLocation": "Bhopal",
+    "coordinates": {
+      "lat": 23.2599,
+      "lng": 77.4126
+    },
+    "createdAt": "2024-06-26T06:30:00.000Z",
+    "updatedAt": "2024-06-26T10:05:00.000Z"
+  }
+]
